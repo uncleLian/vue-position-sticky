@@ -28,8 +28,13 @@ or
 
 ## demo
 ```html
-<vue-position-sticky :offsetTop="0" stickyClass="myStickyClass" />
+<vue-position-sticky :offsetTop="0" sticky-class="myClass" />
+
 <vue-position-sticky :offsetBottom="30" @change="handleStickyChange" />
+
+<vue-position-sticky>
+    <span>sticky slot<span>
+</vue-position-sticky>
 ```
 
 ## Options

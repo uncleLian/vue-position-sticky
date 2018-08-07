@@ -1,7 +1,7 @@
 {
     "name": "vue-position-sticky",
     "description": "A Vue.js components to sticky to the page",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "author": "uncleLian <771674109@qq.com>",
     "private": false,
     "main": "dist/vue-position-sticky.umd.min.js",

@@ -81,7 +81,9 @@ export default {
                 this.sticky = true
                 this.wrapperStyles = {
                     'width': `${elOffset.width}px`,
-                    'min-width': `${elOffset.width}px`
+                    'min-width': `${elOffset.width}px`,
+                    'height': `${elOffset.height}px`,
+                    'min-height': `${elOffset.height}px`
                 }
                 this.stickyStyles = {
                     'top': `${this.offsetTop}px`,
@@ -101,7 +103,9 @@ export default {
                 this.sticky = true
                 this.wrapperStyles = {
                     'width': `${elOffset.width}px`,
-                    'min-width': `${elOffset.width}px`
+                    'min-width': `${elOffset.width}px`,
+                    'height': `${elOffset.height}px`,
+                    'min-height': `${elOffset.height}px`
                 }
                 this.stickyStyles = {
                     'bottom': `${this.offsetBottom}px`,

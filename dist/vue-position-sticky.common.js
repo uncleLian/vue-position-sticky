@@ -1304,12 +1304,12 @@ __webpack_require__.r(__webpack_exports__);
 // EXTERNAL MODULE: ./node_modules/@vue/cli-service/lib/commands/build/setPublicPath.js
 var setPublicPath = __webpack_require__("1eb2");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"/Users/lian/Documents/github/vue-position-sticky/node_modules/.cache/vue-loader","cacheIdentifier":"50fa02e4-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/vue-position-sticky.vue?vue&type=template&id=39bc6eea&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"/Users/lian/Documents/github/vue-position-sticky/node_modules/.cache/vue-loader","cacheIdentifier":"50fa02e4-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/vue-position-sticky.vue?vue&type=template&id=707d6a6c&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{style:(_vm.wrapperStyles)},[_c('div',{class:[{'vue-position-sticky': _vm.sticky}, _vm.stickyClass],style:(_vm.stickyStyles)},[_vm._t("default")],2)])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/vue-position-sticky.vue?vue&type=template&id=39bc6eea&
+// CONCATENATED MODULE: ./src/vue-position-sticky.vue?vue&type=template&id=707d6a6c&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es6.number.constructor.js
 var es6_number_constructor = __webpack_require__("c5f6");
@@ -1401,7 +1401,9 @@ var es6_number_constructor = __webpack_require__("c5f6");
         this.sticky = true;
         this.wrapperStyles = {
           'width': "".concat(elOffset.width, "px"),
-          'min-width': "".concat(elOffset.width, "px")
+          'min-width': "".concat(elOffset.width, "px"),
+          'height': "".concat(elOffset.height, "px"),
+          'min-height': "".concat(elOffset.height, "px")
         };
         this.stickyStyles = {
           'top': "".concat(this.offsetTop, "px"),
@@ -1421,7 +1423,9 @@ var es6_number_constructor = __webpack_require__("c5f6");
         this.sticky = true;
         this.wrapperStyles = {
           'width': "".concat(elOffset.width, "px"),
-          'min-width': "".concat(elOffset.width, "px")
+          'min-width': "".concat(elOffset.width, "px"),
+          'height': "".concat(elOffset.height, "px"),
+          'min-height': "".concat(elOffset.height, "px")
         };
         this.stickyStyles = {
           'bottom': "".concat(this.offsetBottom, "px"),
