@@ -1,0 +1,66 @@
+{
+    "name": "vue-position-sticky",
+    "description": "A Vue.js components to sticky to the page",
+    "version": "0.1.0",
+    "author": "uncleLian <771674109@qq.com>",
+    "private": false,
+    "main": "dist/vue-position-sticky.umd.min.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/uncleLian/vue-position-sticky.git"
+    },
+    "bugs": {
+        "url": "https://github.com/uncleLian/vue-position-sticky/issues"
+    },
+    "keywords": [
+        "vue",
+        "sticky",
+        "vue-sticky",
+        "vue-component"
+    ],
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build --target lib --name vue-position-sticky ./src/index.js",
+        "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+        "vue": "^2.5.16"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^3.0.0-rc.10",
+        "@vue/cli-plugin-eslint": "^3.0.0-rc.10",
+        "@vue/cli-service": "^3.0.0-rc.10",
+        "@vue/eslint-config-standard": "^3.0.0-rc.10",
+        "stylus": "^0.54.5",
+        "stylus-loader": "^3.0.2",
+        "vue-template-compiler": "^2.5.16"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/essential",
+            "@vue/standard"
+        ],
+        "rules": {
+            "no-undef": 0,
+            "indent": 0,
+            "space-before-function-paren": 0
+        },
+        "parserOptions": {
+            "parser": "babel-eslint"
+        }
+    },
+    "postcss": {
+        "plugins": {
+            "autoprefixer": {}
+        }
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not ie <= 8"
+    ]
+}
