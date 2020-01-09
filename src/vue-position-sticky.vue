@@ -119,15 +119,23 @@ export default {
                 this.stickyStyles = null
                 this.$emit('change', false)
             }
+        },
+        handleResize() {
+            this.sticky = false
+            this.wrapperStyles = null
+            this.stickyStyles = null
+            this.$nextTick(() => {
+                this.handleScroll()
+            })
         }
     },
     mounted() {
         window.addEventListener('scroll', this.handleScroll, false)
-        window.addEventListener('resize', this.handleScroll, false)
+        window.addEventListener('resize', this.handleResize, false)
     },
     beforeDestroy() {
         window.removeEventListener('scroll', this.handleScroll, false)
-        window.removeEventListener('resize', this.handleScroll, false)
+        window.removeEventListener('resize', this.handleResize, false)
     }
 }
 </script>

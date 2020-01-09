@@ -26,7 +26,7 @@ or
 <script src="vue-position-sticky.umd.min.js"></script>
 ```
 
-## demo
+## Demo
 ```html
 <vue-position-sticky :offsetTop="0" sticky-class="myClass" />
 
